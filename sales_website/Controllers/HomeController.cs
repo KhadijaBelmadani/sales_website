@@ -10,17 +10,30 @@ namespace sales_website.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Categories()
         {
-            ViewBag.Message = "Your application description page.";
+
+
+            return View("Categories");
+        }
+
+        public ActionResult Offres()
+        {
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
+        public ActionResult Nouveautes()
+        {
+            ViewBag.Message = "Your contact page.";
 
-        public ActionResult Contact()
+            return View();
+        }
+        public ActionResult SeConnecter()
         {
             ViewBag.Message = "Your contact page.";
 
